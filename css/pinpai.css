@@ -1,0 +1,9 @@
+.conter-img{
+	width: 100%;
+}
+.conter-img>img{
+	width: 100%;
+	display:block;
+}
+
+

@@ -1,0 +1,15 @@
+.conter-img{
+	width: 100%;
+	position: relative;
+}
+.conter-img>img{
+	width: 100%;
+	display:block;
+}
+.mp4{
+	margin: 0 auto;
+	position: absolute;
+	top:5%;
+	left:20%;
+	display: none;
+}

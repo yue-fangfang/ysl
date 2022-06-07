@@ -1,0 +1,116 @@
+/* 尾部样式 */
+.footer{
+	width: 100%;
+	background-color: #000000;
+}
+.footer-container{
+	width: 100%;
+	
+}
+.footer-container .footer-topcenter{
+	width: 100%;
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	display: flex;
+	flex-flow: row wrap;
+}
+.footer-container .footer-topcenter .topcenter-wraps{
+	width:100%;
+	background-color: #000000;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row wrap; 
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.footer-container .footer-topcenter .topcenter-wraps .topcenter-item{
+	width: 49.5%;
+	height: 200px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	padding: 32px 0px;
+	border: 1px solid rgba(255,255,255,0.3);
+}
+.footer-container .footer-topcenter .topcenter-wraps .topcenter-item>img{
+	width: 80.5px;
+	height: 46px;
+}
+.footer-container .footer-topcenter .topcenter-wraps .topcenter-item>.main-text{
+	width: 100%;
+	font-size: 12px;
+	margin-top: 14px;
+	color: rgba(255,255,255,.9);
+}
+.footer-container .footer-topcenter .topcenter-wraps .topcenter-item>.sub-text{
+	width: 100%;
+	font-size: 10px;
+	margin-top: 4px;
+	color: rgba(255,255,255,.5);
+}
+
+/* 尾部中间模块 */
+.footer-classify{
+	width: 100%;
+
+	background-color: #000000;
+}
+.classify-conter{
+	width:100%;
+	height: 147px;
+	padding: 58px 0px;
+	margin: 0px auto;
+	background-color:black;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	
+	
+}
+.footer-classify .classify-conter .conter-item::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.footer-classify .classify-conter .conter-item{
+	float: left;
+	color: #FFFFFF;
+/* 	display: none; */
+}
+
+
+.footer-classify>.classify-conter>.conter-item>ul>li>a{
+	color:rgba(255,255,255,.8);
+}
+.footer-classify>.classify-conter>.conter-item>ul>li>a:hover,
+.footer-classify>.classify-conter>.conter-item>ul>li>a:hover span{
+	color: #FFFFFF;
+}
+.footer-classify>.classify-conter>.conter-item>ul>li:nth-child(1){
+	font-weight: 900;
+	margin-bottom: 12px;
+}
+.conter-item .item-p{
+	margin-bottom: 15px;
+}
+.conter-item .search-con{
+	width: 200px;
+	height: 40px;
+	padding: 5px 30px 3px 9px;
+}
+.conter-item .search-btn{
+	display: inline-block;
+	width: 70px;
+	height: 48px;
+	text-align: center;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	color: #000000;
+	line-height: 48px;
+}
+.conter-item>ul>li>a>span{
+	color: #666666;
+}
+
